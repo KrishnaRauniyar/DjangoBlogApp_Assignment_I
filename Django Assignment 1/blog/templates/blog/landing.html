@@ -1,0 +1,34 @@
+{% extends 'blog/base.html' %}
+{% block main_body %}
+
+<div id="showcase">
+    <div class="class">
+        <div class="showcase-content">
+            <h1>Blog</h1>
+            <p>Be an author</p>
+            <p>Create Blogs</p>
+            <a href="/bloglist" style="text-decoration: underline;">Go to Blogs</a>
+        </div>
+    </div>
+</div>
+<style>
+    #showcase {
+        background: url('https://i.pinimg.com/originals/dc/87/f0/dc87f0bb831ec0cc7d6b395965178553.jpg') no-repeat center center/cover;
+        height: 94vh;
+        overflow: hidden;
+    }
+
+    #showcase .showcase-content {
+        color: #333;
+        text-align: center;
+        padding-top: 170px;
+        font-size: 25px;
+    }
+
+    #showcase .showcase-content h1 {
+        font-size: 80px;
+        line-height: 1.2em;
+
+    }
+</style>
+{% endblock %}
